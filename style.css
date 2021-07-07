@@ -16,17 +16,17 @@ header {
 	top: 0;
 	width: 100vw;
 	height: 10vh;
-	background-color: lightgreen;
+	background-color: rgb(255, 212, 131);
 	display: flex;
 	justify-content: center;
-	align-items: flex-end;
-	opacity: 75%;
+	align-items: center;
+	z-index: 1;
 }
 
 .tab {
 	width: 10vw;
 	height: 5vh;
-	background-color: blue;
+	background-color: orange;
 	margin: 0px 10px 0px 10px;
 	border-radius: 18px;
 	display: flex;
@@ -38,9 +38,8 @@ header {
 	width: 50vw;
 	height: 65vh;
 	background-color: orange;
-	border: 1px solid red;
+	border: 20px solid rgb(255, 212, 131);
 	border-radius: 50px;
-	opacity: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -49,7 +48,54 @@ header {
 
 #text {
 	position: relative;
-	bottom: 30%;
+}
+
+img {
+	width: 15vw;
+	height: 20vw;
+}
+
+#menu {
+	display: flex;
+	position: relative;
+	top: 157.5vh;
+	height: 200vh;
+	margin-bottom: 172vh;
+}
+
+.menu-container {
+	width: 90%;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	position: relative;
+	border: 5px solid rgb(255, 212, 131);
+	border-radius: 25px;
+}
+
+.menu-item {
+	margin: 1%;
+	position: relative;
+	left: 2%;
+	bottom: 3%;
+}
+
+.menu-name {
+	position: relative;
+	left: 5%;
+	top: 2%;
+}
+.menu-cost {
+	position: relative;
+	left: 15%;
+	top: 0.1%;
+}
+
+.menu-description {
+	position: absolute;
+	left: 40%;
+	top: 17%;
 }
 
 footer {
@@ -58,6 +104,6 @@ footer {
 	bottom: 0;
 	width: 100vw;
 	height: 10vh;
-	background-color: lightgreen;
-	opacity: 50%;
+	background-color: rgb(255, 212, 131);
+	z-index: 1;
 }
