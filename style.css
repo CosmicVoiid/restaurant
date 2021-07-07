@@ -44,23 +44,30 @@ header {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+	padding: 3%;
 }
 
 #text {
 	position: relative;
+	bottom: 5%;
 }
 
 img {
-	width: 15vw;
-	height: 20vw;
+	width: 10vw;
+	height: 10vw;
 }
 
-#menu {
-	display: flex;
+.title {
 	position: relative;
-	top: 157.5vh;
+	font-size: 5em;
+	color: rgb(255, 212, 131);
+}
+
+.menu {
+	position: relative;
+	top: 147.5vh;
 	height: 200vh;
-	margin-bottom: 172vh;
+	margin-bottom: 160vh;
 }
 
 .menu-container {
@@ -83,19 +90,25 @@ img {
 
 .menu-name {
 	position: relative;
-	left: 5%;
+	left: 7%;
 	top: 2%;
 }
 .menu-cost {
 	position: relative;
-	left: 15%;
+	left: 12%;
 	top: 0.1%;
 }
 
 .menu-description {
 	position: absolute;
-	left: 40%;
+	left: 35%;
 	top: 17%;
+	margin-right: 5%;
+}
+
+#phone {
+	position: relative;
+	bottom: 40%;
 }
 
 footer {
@@ -106,4 +119,7 @@ footer {
 	height: 10vh;
 	background-color: rgb(255, 212, 131);
 	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
